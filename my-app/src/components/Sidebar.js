@@ -1,17 +1,20 @@
+// src/components/Sidebar.js
+
 import React from "react";
+import css from "./Sidebar.module.css";
 
 const Sidebar = () => {
   return (
-    <div>
-      {/* Initial test message */}
-      {/* <p>It works!</p> */}
-
-      {/* Replacing with div containing 3 empty links */}
-      <div>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+    <div className={css.sidebar}>
+      <a href="https://example.com/link1" className={css.link}>
+        Link 1
+      </a>
+      <a href="https://example.com/link2" className={css.link}>
+        Link 2
+      </a>
+      <a href="https://example.com/link3" className={css.link}>
+        Link 3
+      </a>
     </div>
   );
 };

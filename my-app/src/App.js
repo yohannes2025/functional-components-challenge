@@ -1,11 +1,13 @@
 import css from './App.module.css';
 import React from "react";
-import Sidebar from "./components/Sidebar"; // Adjust the path if needed
+import Sidebar from "./components/Sidebar"; 
+
 
 function App() {
   return (
-    <div className={css.App}>
-      {/* Add your components here */}
+    <div className="App">
+      <Sidebar />
+      <h1>It works!</h1>
     </div>
   );
 }
