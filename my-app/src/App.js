@@ -1,4 +1,6 @@
 import css from './App.module.css';
+import React from "react";
+import Sidebar from "./components/Sidebar"; // Adjust the path if needed
 
 function App() {
   return (
